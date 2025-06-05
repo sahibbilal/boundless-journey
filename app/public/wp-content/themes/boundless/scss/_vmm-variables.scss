@@ -1,0 +1,31 @@
+// Colour variables
+$background: #EBEBEB;
+$mobile_menu_button: #AF2824;
+$link_color: #000;
+$list_border: #fff;
+$section_title: #fff;
+$expand_button: #fff;
+
+// Size/Position variables
+$font_size: 18px;
+$menu_width: 200px;
+$link_text_align: center;
+$button_top: 2px;
+$button_right: 18px;
+body{overflow-x:hidden;}
+#page {
+  // Site wrapper must have the following attributes.
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+
+  -webkit-transition: -webkit-transform .3s;
+  transition: transform .3s;
+  &.open {
+    -webkit-transform: translateX(-$menu_width);
+    transform: translateX(-$menu_width);
+    /*
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s;
+    */
+  }
+}

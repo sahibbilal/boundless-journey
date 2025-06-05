@@ -1,0 +1,113 @@
+{
+    "key": "group_55c3914729cb4",
+    "title": "Footer - Mail Sign Up",
+    "fields": [
+        {
+            "key": "field_55c391c526c53",
+            "label": "Title",
+            "name": "msu_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Stay in the Know",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 20,
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_55c3923226c54",
+            "label": "Sign Up Details",
+            "name": "msu_details",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Enter basic copy to appear between the title and mail form.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Get useful information and insider deals on our award-winning adventures. We look forward to traveling with you!",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_55c3927226c55",
+            "label": "Form Placeholder",
+            "name": "msu_placeholder",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Enter hte placeholder text to go over the unfilled signup field",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Enter your email address",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 100,
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_55c3929d26c56",
+            "label": "Button Title",
+            "name": "msu_button",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Sign Up",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 7,
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "pagesegment"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1716917851
+}

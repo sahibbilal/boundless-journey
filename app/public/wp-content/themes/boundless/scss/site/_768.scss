@@ -1,0 +1,30 @@
+  .col {
+    float:left;
+  }
+  .content-subnav .col-main-content {
+    margin:0 8.33% 0 0;
+    width:64.667%;
+  }
+  .content-subnav .col-main-sidebar.subnav {
+    width:27.003%;
+  }
+  /* Scott T */
+  address {
+    font-size: 18px;
+  }
+  .gform_footer {
+    text-align:left;
+  }
+  input.large {
+    width:70%;
+  }
+  .centered-content {
+  padding:0 8%;
+  & * {
+    text-align: center;
+  }
+  // .page-id-8 & p,
+  // .page-id-8 & h2 {
+  //   text-align:left;
+  // }
+}

@@ -1,0 +1,89 @@
+section.cookie-banner{
+
+	&.loading {
+		//display:none;
+	}
+	@media screen and (min-width: 640px) {
+		bottom: 50px;
+		right: 50px;
+		width: 312px;
+	}
+	padding: 32px 15px 23px 0;
+	background: #fff;
+	text-align: left;
+	border: none;
+	position: fixed;
+	display: none;
+	z-index: 12;
+	box-shadow: 2px 2px 6px rgba(5,5,5,0.65);
+
+	right: 20px;
+	bottom: 100px;
+	width: calc(100% - 56px);
+
+	p {
+		display:inline-block;
+		font-size: 19px;
+		line-height: 28px;
+		margin-bottom:0;
+		vertical-align:top;
+		padding-bottom: 20px;
+	}
+
+	span.button {
+		background-color: #af2824;
+		font-size:16px;
+		padding: 14px 40px;
+		color:#fff;
+		display:inline-block;
+		font-weight:300;
+		border:1px solid #fff;
+		vertical-align: middle;
+		margin: 0;
+		&:after {
+			display: none;
+		}
+	}
+
+	span.close {
+		padding: 10px 0 10px 10px;
+		line-height:24px;
+		position:absolute;
+		top: 3px;
+		right:20px;
+		font-size:22px;
+		cursor: pointer;
+		border: none;
+		&:hover {
+			color: #af2824;
+		}
+		&:after{
+
+			background: url('../images/icons/close-icon-red.png') no-repeat 0 50%;
+			display:inline-block;
+			background-size: 13px 13px;
+			width: 14px;
+			height: 14px;
+			content: '';
+			margin-left:10px;
+		}
+	}
+
+	/* overrides when closed */
+	&.closed {
+		display:none;
+		padding:0px;
+		background-color: #2e3038;
+		text-align:center;
+		position:relative;
+		border-bottom:1px solid #43454c;
+		height:0;
+
+		a.button {
+			border-width:0px;
+		}
+		span.close {
+			display:none;
+		}
+	}
+}

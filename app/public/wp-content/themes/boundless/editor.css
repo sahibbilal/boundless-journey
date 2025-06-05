@@ -1,0 +1,24 @@
+* {
+  font-family:"brandon-grotesque", serif;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {  
+  font-weight:bold;
+}
+h2, .h2 {
+  font-size:24px;
+  font-weight:500;
+  margin:0 0 36px 0;
+  text-transform:uppercase;
+  line-height:1.2;
+  color:#000;
+}
+
+
+p {
+  font-size:16px;
+  margin:0 0 20px 0;
+  line-height:1.4;
+}
+p.large {
+  font-size:18px;
+}

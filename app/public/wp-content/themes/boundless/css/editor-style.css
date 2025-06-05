@@ -1,0 +1,104 @@
+* {
+  font-family:"brandon-grotesque", sans-serif;
+  color:#333;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {  
+  font-weight:bold;
+}
+h1,
+.h1
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  color: #000;
+  font-weight: 500;
+  text-transform:uppercase;
+}
+h1, .h1 {
+  font-size:28px;
+  margin:0 0 28px 0;
+  line-height:1.2;
+}
+h2, .h2 {
+  font-size:24px;
+  margin:0 0 22px 0;
+  line-height:1.2;
+}
+h3,.h3 {
+  font-size: 21px;
+  margin: 0 0 14px 0;
+  line-height: 1.4;
+}
+h4,.h4 {
+  font-size: 18px;
+  margin:0;
+  line-height: 1.4;
+}
+
+
+p {
+  font-family:"brandon-grotesque", sans-serif;
+  font-size:16px;
+  margin:0 0 20px 0;
+  line-height:1.4;
+}
+div[data-name="centered_text_block_content"] iframe p
+div[data-name="centered_text_block_content"] iframe .button {
+  text-align:center!important;
+}
+strong,
+b {
+  font-weight:600;
+}
+i,
+em {
+  font-style:italic;
+}
+a {
+  color:#cc2823;
+  outline:0;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration:underline;
+}
+.inline-list {
+  margin: 0;
+  text-align: center;
+  list-style-type:none;
+  width: 100%;
+}
+.inline-list li {
+  display: inline-block;
+  margin:0 2%;
+}
+
+.button {display: inline-block; background: #fff; padding: 14px 22px; border: 1px solid #ddd7d7; color: #000; font-size: 14px; text-decoration:none; line-height:1; font-weight:500; font-family: "brandon-grotesque", sans-serif; text-transform:uppercase; cursor:pointer; -webkit-transition:all 0.15s ease-in-out;-moz-transition:all 0.15s ease-in-out;-o-transition:all 0.15s ease-in-out;transition:all 0.15s ease-in-out; text-align:center;}
+.button:after {background: url(../images/icons/arrow-right-red.png) no-repeat 0 bottom; background-size:4px auto; display: inline-block; width: 4px; height: 8px; vertical-align:top; text-indent:-9999px; content:"Arrow"; margin:3px 0 0 7px;}
+.button:hover {color: #cc2823; text-decoration:none;}
+
+.button.small {padding-top: 10px; padding-bottom:10px;}
+
+.button.gray {background: #2e3038; border: none; color: #fff;}
+.button.gray:hover {background: #393b42; border: none;}
+.button.gray:after {background-image: url(../images/icons/arrow-right-white.png);}
+
+.fineprint,
+.fineprint p {font-size:14px; font-style:italic;}
+
+.img-left,
+.img-right {
+  display: block;
+  max-width: 300px;
+}
+.img-left {
+  float: left;
+  margin: 0 25px 25px 0;
+}
+.img-right {
+  float: right;
+  margin: 0 0 25px 25px;
+}

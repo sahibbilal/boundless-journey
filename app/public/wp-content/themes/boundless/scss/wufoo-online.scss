@@ -1,0 +1,54 @@
+// This form is used only to override style on the third party platform
+
+
+
+//Make the labels uppercase
+label, .wufoo label.desc, .wufoo legend.desc{
+	text-transform: uppercase;
+}
+
+//The Submit buttons
+#saveForm, #submitFormButton {
+	border: none;
+	color: #fff;
+	padding: 17px 28px 15px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	background-color: black;
+
+	&:hover, &:focus{
+		background-color: #464851;
+	}
+}
+
+// This is for the top logo that is selected on the wufoo platform
+#logo a{
+	background-size: 100px;
+	background-position: 20px 7px;
+}
+
+//Overrides
+
+//For the labels under  inputs
+form li div label, form li span label{
+	font-size: 14px !important;
+	text-transform: capitalize;
+}
+
+// The payment form titles
+#payment li.first h2 {
+	font-size: 120% !important;
+	margin-bottom: 4px;
+	color: #444444 !important;
+	font-family: 'brandon-grotesque';
+	text-transform: uppercase;
+}
+// The label under the payment h2
+#payment .section div{
+	padding-left: 10px;
+}
+
+
+

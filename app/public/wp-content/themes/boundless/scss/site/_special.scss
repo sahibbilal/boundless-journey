@@ -1,0 +1,127 @@
+section.specialheader{
+
+	&.loading {
+		//display:none;
+	}
+	@media screen and (min-width: 640px) {
+		padding:25px 100px 25px 0;
+
+	}
+	padding:60px 0px 40px;
+	background-color: #f1ece7;
+	text-align:center;
+	border-bottom:2px solid #fff;
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 12;
+
+	p {
+		display:inline-block;
+		font-size: 20px;
+		line-height: 30px;
+		@media screen and (min-width: 640px) {
+			font-size: 24px;
+			line-height:44px;
+		}
+		margin-bottom:0;
+		vertical-align:top;
+	}
+
+	a.button {
+		background-color: #af2824;
+		font-size:16px;
+		padding:14px 20px;
+		color:#fff;
+		display:inline-block;
+		font-weight:300;
+		border:1px solid #fff;
+		margin-left:20px;
+		vertical-align: middle;
+		margin-top:20px;
+		@media screen and (min-width: 640px) {
+			margin-top: 0px;
+		}
+		&:after{
+			background: url('../images/icons/arrow-right-white.png') no-repeat 0 50%;
+			background-size: 4px auto;
+		}
+	}
+
+
+	span.close {
+		padding:10px 0 10px 26px;
+		line-height:24px;
+		position:absolute;
+		top:10px;
+		right:20px;
+		font-size:22px;
+		cursor: pointer;
+		@media screen and (min-width: 640px) {
+			border-left: 1px solid rgba(0,0,0,0.4);
+			top:25px;
+		}
+		&:hover {
+			color: #af2824;
+		}
+		&:after{
+
+			background: url('../images/icons/close-icon-black.png') no-repeat 0 50%;
+			display:inline-block;
+			background-size: 13px 13px;
+			width: 14px;
+			height: 14px;
+			content: '';
+			margin-left:10px;
+		}
+	}
+
+	&.darkfont {
+		p {
+			color:#333;
+		}
+
+	}
+	&.brightfont{
+		p {
+			color:#efefef;
+		}
+		span.close {
+			color:#fff;
+			border-left: 1px solid rgba(255,255,255,0.4);
+			&:after {
+				background: url('../images/icons/close-icon-white.png') no-repeat 0 50%;
+				display:inline-block;
+				background-size: 13px 13px;
+				width: 14px;
+				height: 14px;
+				content: '';
+				margin-left:10px;
+			}
+		}
+	}
+
+
+
+
+
+	/* overrides when closed */
+	&.closed {
+		display:none;
+		padding:0px;
+		background-color: #2e3038;
+		text-align:center;
+		position:relative;
+		border-bottom:1px solid #43454c;
+		height:0;
+
+		a.button {
+			border-width:0px;
+		}
+		span.close {
+			display:none;
+		}
+	}
+}

@@ -1,0 +1,104 @@
+.quote {
+	.full-testimonial {
+		text-align:center;
+		.review-head{
+			display:block;
+			.rr_date {
+				font-size: 16px;
+				padding-top:10px;
+				padding-bottom:14px;
+				display:block;
+			}
+			.stars {
+				padding-bottom:10px;
+				font-size: 24px;
+				font-family:fontawesome;
+
+			}
+		}
+		.rr_review_text {
+			font-size:18px;
+			line-height: 24px;
+			//padding-left:20px;
+			a.show_less, a.read_more {
+				font-size:14px;
+			}
+		}
+		.rr_review_name {
+			padding-right:15px !important;
+		}
+
+	}
+
+	.testimonial_group .full-testimonial {
+		padding-bottom:20px;
+		margin-bottom: 20px;
+		border-bottom:1px dotted #ccc;
+		padding-left:0px !important;
+	}
+
+
+}
+
+
+.rr_custom_modal {
+	width:60%;
+	background-color:#FFFFFF;
+	margin:150px auto auto auto;
+	padding:30px;
+}
+
+.rr_review_text .drop_cap {
+	display:none;
+
+}
+
+.rr_successful .glyphicon {
+	display:none;
+}
+.tour-listing .tour ul li.li_departure {
+	margin-bottom:10px;
+}
+
+/* form */
+
+form.rr_review_form {
+
+	table.form_table {
+		width:100%;
+		td.rr_form_heading {
+			font-size:18px;
+			font-weight: 600;
+			text-transform:uppercase;
+			max-width:140px;
+		}
+
+		.rr_stars_container span{
+			cursor: pointer;
+		}
+
+		.rr_form_row .rr_form_input{
+			text-align:left;
+			input[type="text"] {
+				width:100%;
+			}
+			textarea{
+				width:100%;
+			}
+		}
+		#submitReview{
+			background-color: #57585e;
+			color:#fff;
+			font-weight: 600;
+			text-transform:uppercase;
+			padding: 10px 20px;
+			border:0;
+			cursor: pointer;
+		}
+
+	}
+
+	.rr_form_row .rr_form_input .form-err {
+		font-size:16px !important;
+	}
+}

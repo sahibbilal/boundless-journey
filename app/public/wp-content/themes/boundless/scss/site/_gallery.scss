@@ -1,0 +1,29 @@
+.mfp-wrap .mfp-title {
+	display: block;
+}
+.gallery-item {
+	cursor: zoom-in;
+	display:block;
+	float: left;
+	width:33%;
+	img {
+		width:100%;
+		display:block;
+	}
+}
+.sizer {
+	width:33%;
+}
+/*smugmug*/
+.gallery {
+	/* why does it input breaks... just remove them */
+	br {
+		display:none;
+	}
+	dl.gallery-item {
+		margin-top:0px;
+		img {
+			border:0px;
+		}
+	}
+}

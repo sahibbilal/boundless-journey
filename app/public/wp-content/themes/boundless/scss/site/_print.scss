@@ -1,0 +1,197 @@
+$print-serif: Georgia, serif!important;
+$print-sans-serif: sans-serif!important;
+
+body {
+  padding:0;
+  margin:30pt;
+}
+.site-wrapper {
+  padding:0;
+}
+
+* {
+  background:none!important;
+  font-family:$print-sans-serif;
+}
+strong,
+b {
+  font-weight: bold;
+}
+em,
+i {
+  font-style: italic;
+}
+ul.arrow {
+  list-style-type:disc;
+  margin:0 0 24pt 24pt;
+  & li {
+    background: none;
+    padding:0;
+    margin:0;
+  }
+}
+p,
+.arrow li,
+.guide-quote-non-slide .gallery-cell p,
+p.large,
+.guide-quote-non-slide .name span,
+.guide-quote-non-slide .name .tc,
+.quote-slider .quotes .gallery-cell p {
+  font-size:10pt;
+  line-height:16pt;
+}
+.quote-slider .quotes .gallery-cell p {
+  font-family:$print-serif;
+  font-size:11pt;
+}
+h1,.h1 {
+  font-size:18pt;
+  margin-bottom:17pt;
+}
+h2,.h2 {
+  font-size:16pt;
+  margin-bottom:15pt;
+}
+h3,.h3 {
+  font-size:14pt;
+  margin-bottom:13pt;
+}
+h4,.h4 {
+  font-size:12pt;
+  margin-bottom:13pt;
+}
+h1,.h1,
+h2,.h2,
+h3,.h3,
+h4,.h4 {
+  font-weight:bold;
+}
+.tour-itinerary .tour-itinerary .itinerary .location {
+  font-size: 14pt;
+}
+a {
+  color:#000;
+}
+figure {
+  margin:0 0 12pt;
+}
+figcaption {
+  font-size:8pt;
+  font-style:italic;
+  font-family:$print-serif;
+}
+
+.tour-itinerary .itinerary-dates-prices .included ul {
+  list-style-type:disc;
+  margin:0 0 0 40px;
+  & li {
+    padding:0;
+  }
+}
+.post-meta {
+  font-size:11pt;
+  margin:0 0 12pt;
+  font-style:italic;
+}
+
+/* Elements to hide */
+header,
+#breadcrumb,
+header .primary_support li#li_request,
+.featured-highlights,
+.guest-quote,
+.tab-headings,
+.tour-itinerary .side,
+.noprint,
+#questions,
+#accolades,
+footer,
+#snuggle,
+.buttons,
+.slideshowheader,
+.bottom-mask,
+.cta-boxes,
+.tours-ctas,
+.tour-listing,
+.featured-destinations,
+.gmaps-header,
+#google-map,
+.cta-images,
+.flickity-prev-next-button,
+.full-bg,
+.button,
+.subnav,
+.req,
+.form-wrapper,
+section.specialheader {
+  display:none;
+}
+
+.itinerary-tabs .content {
+  display:block;
+  margin:0 0 20pt;
+}
+
+#splash.header-478 .caption .tbl {
+  display:block;
+  height:auto;
+}
+#splash .caption .tbl .tc {
+  position: relative;
+  bottom:auto;
+  top:auto;
+  text-align:left;
+}
+#splash .caption .headline {
+  text-shadow:none;
+  color:#000;
+  display:block;
+  font-size: 26pt;
+}
+.js .tour-itinerary .tour-itinerary .itinerary .wrap {
+  border-right:none;
+}
+
+section {
+  padding-bottom:0;
+  &:first-child {
+    padding:0;
+  }
+}
+section:first-child {
+  padding:0;
+}
+header > div,
+footer > div,
+section > div {
+  max-width: none;
+  margin:0;
+  padding:0;
+}
+.quote-slider .quotes {
+  margin:0;
+}
+.guide-quote,
+.guide-quotes {
+  text-align:left;
+  max-width: none;
+}
+.guide-quote-non-slide > div,
+.quote-slider,
+.quote-slider .wrapper {
+  padding:0;
+}
+.region-landing .guide-quotes {
+  border:none;
+  padding:0;
+  margin:0;
+  &::after,
+  &::before {
+    background:none;
+  }
+}
+
+
+.itinerary-tabs .content, .content-tabs .content-tab-content {display: block!important;}
+.tour-itinerary .tour-itinerary .itinerary .details {display: block!important;}
+.tour-itinerary .tour-itinerary .itinerary .accomm .img img {width: 200px; display: block;}

@@ -1,0 +1,19 @@
+/* Scott T's over-rides */
+.centered-content p {
+  font-size:24px;
+  line-height: 36px;
+}
+h2 {
+  margin:0 0 30px;
+}
+
+header .primary_nav li {
+    margin: 0 0 0 3.5%;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+
+}

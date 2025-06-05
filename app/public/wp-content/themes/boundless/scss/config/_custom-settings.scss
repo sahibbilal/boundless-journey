@@ -1,0 +1,105 @@
+/*
+	My custom settings. These variables are copied from _settings.css
+	This file will only contain uncommented settings that are actually used in the theme.
+*/
+
+// We use these to define default font stacks
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+
+$sans-serif-stack: "brandon-grotesque",sans-serif;
+
+// We use these to define default font weights
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
+
+// Foundation color naming conventions
+$white          : #FFFFFF;
+$ghost          : #FAFAFA;
+$snow           : #F9F9F9;
+$vapor          : #F6F6F6;
+$white-smoke    : #F5F5F5;
+$silver         : #EFEFEF;
+$smoke          : #EEEEEE;
+$gainsboro      : #DDDDDD;
+$iron           : #CCCCCC;
+$base           : #AAAAAA;
+$aluminum       : #999999;
+$jumbo          : #888888;
+$monsoon        : #777777;
+$steel          : #666666;
+$charcoal       : #555555;
+$tuatara        : #444444;
+$oil            : #333333;
+$jet            : #222222;
+$black          : #000000;
+/* Added by Scott T */
+$light-tan      : #ebebeb;
+$form-helper-grey: #b5b5b5;
+$bj-red         : #cc2823;
+$bj-pink        : #fff2f2;
+$input-bdr-grey : #d5d5d5;
+$dark-navy      : #2e3038;
+$dark-navy-hover: #4b4e58;
+$bdr-tan        : #d8d4cf;
+
+// We use these as default colors throughout
+$primary-color: #008CBA;
+$secondary-color: #e7e7e7;
+$alert-color: #f04124;
+$success-color: #43AC6A;
+$warning-color: #f08a24;
+$info-color: #a0d3e8;
+
+// We use these to control various global styles
+$body-bg: $white;
+$body-font-color: $jet;
+$body-font-family: $font-family-sans-serif;
+$body-font-weight: $font-weight-normal;
+$body-font-style: normal;
+$header-font-weight: 300;
+$header-text-rendering: optimizeLegibility;
+$topbar-link-weight: bold;
+
+// Media query breakpoints
+$small-breakpoint:  em-calc(640);
+$medium-breakpoint: em-calc(768);
+$large-breakpoint:  em-calc(960);
+$xlarge-breakpoint: em-calc(1060);
+$xxlarge-breakpoint: em-calc(1180);
+$huge-breakpoint: em-calc(1280);
+$xhuge-breakpoint: em-calc(1400);
+$xxhuge-breakpoint: em-calc(1600);
+
+$small-range:   (0, $small-breakpoint);
+$medium-range:  ($small-breakpoint  + em-calc(1), $medium-breakpoint);
+$large-range:   ($medium-breakpoint + em-calc(1), $large-breakpoint);
+$xlarge-range:  ($large-breakpoint  + em-calc(1), $xlarge-breakpoint);
+$xxlarge-range:  ($xlarge-breakpoint  + em-calc(1), $xxlarge-breakpoint);
+$huge-range:  ($xxlarge-breakpoint  + em-calc(1), $huge-breakpoint);
+$xhuge-range:  ($huge-breakpoint  + em-calc(1), $xhuge-breakpoint);
+$xxhuge-range:  ($xhuge-breakpoint  + em-calc(1), $xxhuge-breakpoint);
+
+$screen: "only screen";
+
+//$xxlarge-range: ($xlarge-breakpoint + em-calc(1), em-calc(99999999));
+
+$small-up: $screen;
+$small-only: "#{$screen} and (max-width: #{upper-bound($small-range)})";
+
+$medium-up: "#{$screen} and (min-width:#{lower-bound($medium-range)})";
+$medium-only: "#{$screen} and (min-width:#{lower-bound($medium-range)}) and (max-width:#{upper-bound($medium-range)})";
+
+$large-up: "#{$screen} and (min-width:#{lower-bound($large-range)})";
+$large-only: "#{$screen} and (min-width:#{lower-bound($large-range)}) and (max-width:#{upper-bound($large-range)})";
+
+$xlarge-up: "#{$screen} and (min-width:#{lower-bound($xlarge-range)})";
+$xlarge-only: "#{$screen} and (min-width:#{lower-bound($xlarge-range)}) and (max-width:#{upper-bound($xlarge-range)})";
+
+$xxlarge-up: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)})";
+
+$huge-up: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)})";
+$xhuge-up: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)})";
+/* $xxhuge-up: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)})";*/
+$xxhuge-up: "#{$screen} and (min-width:1600px)";
